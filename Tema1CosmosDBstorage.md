@@ -67,11 +67,11 @@ C. pues para realizar una conexión con una base de datos distribuida globalment
 
 *You are developing a new page for a website that uses Azure Cosmos DB for data storage. The feature uses documents that have the following format:*
 
-![Format](Imagenes\CosmoDB_formato.png)
+![Format](Imagenes/CosmoDB_formato.png)
 
 *You must display data for the new page in a specific order. You create the following query for the page:*
 
-![Query](Imagenes\CosmoDB_query.png)
+![Query](Imagenes/CosmoDB_query.png)
 
 *You need to configure a Cosmos DB policy to support the query.*
 
@@ -81,11 +81,11 @@ C. pues para realizar una conexión con una base de datos distribuida globalment
 
 *Select and Place:*
 
-![Opciones_ejercicio2_pag81](Imagenes\Opciones_CosmoDB_1.png)
+![Opciones_ejercicio2_pag81](Imagenes/Opciones_CosmoDB_1.png)
 
 Para realizar una consulta que ordena con más de una opción se requiere de ``compositeIndexes``. Además, en la query se indica que city se ordena de forma descendente, recurriéndose a ``descending``. Quedando la solución como se muestra a continuación:
 
-![Respuestas_ejercicio2_pag81](Imagenes\CosmoDB_query_respuesta.png)
+![Respuestas_ejercicio2_pag81](Imagenes/CosmoDB_query_respuesta.png)
 
 
 
@@ -104,15 +104,15 @@ Para realizar una consulta que ordena con más de una opción se requiere de ``c
 
 *You plan to store customer information in Azure Cosmos DB. The following data already exists in the database:*
 
-![Datos](Imagenes\CosmoDB_datos.png)
+![Datos](Imagenes/CosmoDB_datos.png)
 
 *You develop the following code to save scores in the data store. (Line numbers are included for reference only.)*
 
-![Codigo_score_table](Imagenes\CosmoDB_codigo_scoreTable.png)
+![Codigo_score_table](Imagenes/CosmoDB_codigo_scoreTable.png)
 
 *You develop the following code to query the database. (Line numbers are included for reference only.)*
 
-![Codigo_query](Imagenes\CosmoDB_codigo_query.png)
+![Codigo_query](Imagenes/CosmoDB_codigo_query.png)
 
 *For each of the following statements, select Yes if the statement is true. Otherwise, select No.*
 
@@ -120,7 +120,7 @@ Para realizar una consulta que ordena con más de una opción se requiere de ``c
 
 *Hot Area:*
 
-![Opciones_Yes_No](Imagenes\CosmoDB_opciones_YesNo.png)
+![Opciones_Yes_No](Imagenes/CosmoDB_opciones_YesNo.png)
 
 1. Yes, porque se crea una tabla de la siguiente forma:
 
@@ -149,4 +149,4 @@ Para realizar una consulta que ordena con más de una opción se requiere de ``c
 
 En consecuencia, el resultado viene dado por la siguiente imagen:
 
-![Opciones_Yes_No_Respuestas](Imagenes\CosmoDB_opciones_YesNo_respuestas.png)
+![Opciones_Yes_No_Respuestas](Imagenes/CosmoDB_opciones_YesNo_respuestas.png)

@@ -56,7 +56,7 @@ Cuando la Identidad Administrada se encuentre correctamente configurada y los pe
 
 ConfigureSSE.ps1
 
-![ConfigureSSE.ps1](Imagenes\Key_vault_ConfigureSSE.ps1.png)
+![ConfigureSSE.ps1](Imagenes/Key_vault_ConfigureSSE.ps1.png)
 
 *What code do you add at line CS07 of ConfigureSSE.ps1?*
 
@@ -82,7 +82,7 @@ D. Porque todos los certificados y secretos utilizados para asegurar los datos d
 
 *In which order should you arrange the PowerShell commands to develop the solution? To answer, move all commands from the list of commands to the answer area and arrange them in the correct order.*
 
-![Opciones a ordenar](Imagenes\Key_vault_ordenar.png)
+![Opciones a ordenar](Imagenes/Key_vault_ordenar.png)
 
 1.  ``Get-AzSubscription``: Si se tienen varias suscripciones, es posible que se deba especificar aquella que se utilizó para crear el almacén de claves y este comando se ejecuta para ver las suscripciones de la cuenta.
 
@@ -93,7 +93,7 @@ D. Porque todos los certificados y secretos utilizados para asegurar los datos d
 4. ``$secretvalue = ConvertTo-SecureString $storageAccountKey -AsPlainText -Force Set-AzKeyVaultSecret -VaultName $vaultName -Name $secretName -SecretValue $secretvalue``: Después de recuperar el secreto (en este caso, la clave de la cuenta de almacenamiento), se convierte esa clave en un objeto ``SecureString`` y luego se crea un secreto con ese valor en el almacén de claves.
 5. ``Get-AzKeyVaultSecret -VaultName $vaultName``: Se debe obtener la URI del secreto creado, para poder llamar al almacen de claves y recuperar el secreto, Se ejecuta este comando y se anota el valor del ID, que es la URI del secreto. 
 
-![Opciones a ordenar solución](Imagenes\Key_vault_ordenar_solucion.png)
+![Opciones a ordenar solución](Imagenes/Key_vault_ordenar_solucion.png)
 
 
 
@@ -111,7 +111,7 @@ D. Porque todos los certificados y secretos utilizados para asegurar los datos d
 
 *NOTE: Each correct selection is worth one point.*
 
-![Opciones de retención y eliminación accidental](Imagenes\Key_vault_accidental_deletion.png)
+![Opciones de retención y eliminación accidental](Imagenes/Key_vault_accidental_deletion.png)
 
 
 
@@ -120,4 +120,4 @@ D. Porque todos los certificados y secretos utilizados para asegurar los datos d
 
 Al estar activada Purge protection, un almacén o un objeto en estado eliminado no se puede purgar hasta que haya transcurrido el período de retención. Los almacenes y objetos eliminados con Soft delete aún se pueden recuperar, asegurándose el cumplimiento de la política de retención. Mostrándose la solución en la siguiente imagen:
 
-![Opciones de retención y eliminación accidental soluciones](Imagenes\Key_vault_accidental_deletion_respuestas.png)
+![Opciones de retención y eliminación accidental soluciones](Imagenes/Key_vault_accidental_deletion_respuestas.png)
