@@ -189,11 +189,7 @@ Los usuarios de ContentUploadService informan que ocasionalmente ven respuestas 
 
 ContentUploadService
 
-![image-20230605095857976](/Users/victorvitio/Library/Application Support/typora-user-images/image-20230605095857976.png)
-
-![image-20230605095909145](/Users/victorvitio/Library/Application Support/typora-user-images/image-20230605095909145.png)
-
-
+ ![casoestudio1](Imagenes/casoestudio1.png)
 
 
 
