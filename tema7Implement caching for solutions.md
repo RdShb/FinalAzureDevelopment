@@ -65,9 +65,41 @@ https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching#manag
 
 
 
+**Pregunta 10,página 202:**
+
+Estás desarrollando e implementando varias aplicaciones web ASP.NET en Azure App Service. Planeas guardar la información del estado de sesión y la salida HTML.
+
+Debes utilizar un mecanismo de almacenamiento con los siguientes requisitos:
+
+Compartir el estado de sesión entre todas las aplicaciones web ASP.NET.
+
+Admitir acceso controlado y concurrente a los mismos datos de estado de sesión para múltiples lectores y un único escritor.
+
+Guardar respuestas HTTP completas para solicitudes concurrentes.
+
+Necesitas almacenar la información.
+
+**Solución propuesta: **Habilitar Application Request Routing (ARR).
+
+**¿Cumple la solución con el objetivo?**
+
+A. Sí
+
+B. No
+
+**Respuesta correcta: B**
+
+Explicación:
+
+En su lugar, implementa y configura Azure Cache for Redis. Actualiza las aplicaciones web.
+
+Referencia:
+
+https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching#managing-concurrency-in-acache
 
 
-**Caso de estudio 1,página 168:** 
+
+**Pregunta 11,página 203:** 
 
 Estás desarrollando e implementando varias aplicaciones web ASP.NET en Azure App Service. Planeas guardar la información del estado de sesión y la salida HTML.
 
@@ -111,7 +143,7 @@ https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching
 
 
 
- **Pregunta 1, página 191:**
+
 
 
 
