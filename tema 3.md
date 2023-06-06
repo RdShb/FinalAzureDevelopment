@@ -1,4 +1,4 @@
-#### ¿Qué son las soluciones basadas en eventos y cómo se diferencian de las arquitecturas tradicionales basadas en solicitudes y respuestas?
+### ¿Qué son las soluciones basadas en eventos y cómo se diferencian de las arquitecturas tradicionales basadas en solicitudes y respuestas?
 Las soluciones basadas en eventos son un enfoque arquitectónico en el cual las acciones y respuestas se desencadenan por eventos que ocurren en el sistema.
 Estos eventos pueden ser generados por usuarios, dispositivos, aplicaciones o servicios, y se propagan a través de un bus de eventos o un sistema similar.
 
@@ -7,12 +7,12 @@ las soluciones basadas en eventos se basan en la emisión y recepción de evento
 Esta separación de la lógica de negocio de la generación de eventos permite una mayor flexibilidad, escalabilidad y desacoplamiento entre los diferentes componentes de la solución.
 
 
-#### ¿Cuál es el papel de Azure Event Grid en la implementación de soluciones basadas en eventos y cómo se integra con otros servicios de Azure?
+### ¿Cuál es el papel de Azure Event Grid en la implementación de soluciones basadas en eventos y cómo se integra con otros servicios de Azure?
 Azure Event Grid es un servicio de enrutamiento de eventos administrado que desempeña un papel fundamental en la implementación de soluciones basadas en eventos dentro de Azure ya que proporciona un mecanismo para la entrega confiable y escalable de eventos.
 El papel de Azure Event Grid es actuar como el bus de eventos centralizado en la arquitectura, permitiendo que los diferentes servicios publiquen eventos y que otros servicios los consuman.
 
 
-#### ¿Cuáles son los beneficios y casos de uso comunes de Azure Event Hub en el procesamiento y análisis de flujos masivos de eventos en tiempo real?	
+### ¿Cuáles son los beneficios y casos de uso comunes de Azure Event Hub en el procesamiento y análisis de flujos masivos de eventos en tiempo real?	
 
 Azure Event Hubs es un servicio de Azure diseñado específicamente para el procesamiento y análisis de flujos masivos de eventos en tiempo real.
 Proporciona una plataforma escalable y confiable para la ingesta, retención y entrega de eventos a escala, lo que ofrece una serie de beneficios y casos de uso comunes, algunos de ellos son:
