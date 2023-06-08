@@ -17,9 +17,9 @@ Dada la aparición de las imágenes en los Markdowns se ha añadido la carpeta `
 | --------------------------------------- | ---------------------------------------------------- | ------------------------- |
 | Tema1CosmosDBstorage.md                 | Tema 1: Develop solutions that use Cosmos DB storage | Monserrat Cabrera Sánchez |
 | Tema2AzureSolutions.md                  | Tema 2: Implement secure Azure solutions             | Monserrat Cabrera Sánchez |
-| tema 3                                  | Tema 3: Develop event-based solutions                | Lautaro Rocca             |
+| Tema3DevelopEventBasedSolutions.md      | Tema 3: Develop event-based solutions                | Lautaro Rocca             |
 | tema4ImplementContainerizedSolutions.md | Tema 4: Implement containerized solutions            | Victor Manuel Perez Rosa  |
-|                                         | Tema 5: Implement API Management                     | Lautaro Rocca             |
+| Tema5ImplementAPIManagement.md          | Tema 5: Implement API Management                     | Lautaro Rocca             |
 | tema6Develop message-based solutions.md | Tema 6: Develop message-based solutions              | Victor Manuel Perez Rosa  |
 | tema7Implement caching for solutions.md | Tema 7: Implement caching for solutions              | Victor Manuel Perez Rosa  |
 
